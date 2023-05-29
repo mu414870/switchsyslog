@@ -11,7 +11,7 @@ def handle_client(client_socket, client_address):
     conn = pymysql.connect(
         host='192.168.99.141',
         user='root',
-        password='LhL20020218@',
+        password='*******',
         database='syslog'
     )
     cursor = conn.cursor()
